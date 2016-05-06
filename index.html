@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Matrix</title>
+</head>
+<body>
+	<div class="container">
+		<label for="model">Model:</label>
+		<input type="text" id="model-input" class="textbox"></input>
+		<label for="total_inputs">Total Inputs:</label>
+		<input type="text" id="total-inputs" class="textbox"></input>
+		<label for="total_outputs">Total Outputs:</label>
+		<input type="text" id="total-outputs" class="textbox"></input>
+		<a href="#" id="init-matrix">Create Matrix</a>
+	</div>
+	<div class="container">
+		<div class="device">
+			<h1 id="model">CrossPoint Ultra 168</h1>
+			<div class="left-panel">
+				<div class="input-btns">
+					<h4>INPUT</h4>
+					<button id="i0">1</button>
+					<button id="i1">2</button>
+					<button id="i2">3</button>
+					<button id="i3">4</button>
+					<button id="i4">5</button>
+					<button id="i5">6</button>
+					<button id="i6">7</button>
+					<button id="i7">8</button>
+					<button id="i8">9</button>
+					<button id="i9">10</button>
+					<button id="i10">11</button>
+					<button id="i11">12</button>
+					<button id="i12">13</button>
+					<button id="i13">14</button>
+					<button id="i14">15</button>
+					<button id="i15">16</button>
+
+
+				</div>
+				<div class="output-btns">
+					<h4>OUTPUT</h4>
+					<button id="o0">1</button>
+					<button id="o1">2</button>
+					<button id="o2">3</button>
+					<button id="o3">4</button>
+					<button id="o4">5</button>
+					<button id="o5">6</button>
+					<button id="o6">7</button>
+					<button id="o7">8</button>
+				</div>
+			</div>
+			<div class="right-panel">
+				<h4>ACTION</h4>
+				<button id="enter">ENTER</button>
+				<button id="cancel">CANCEL</button>
+			</div>
+		</div>
+	</div>
+	
+	<div id="io_console">
+		<h4>Console</h4>
+	</div>
+	<script src="matrix.js"></script>
+</body>
+</html>

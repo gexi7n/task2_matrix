@@ -1,0 +1,93 @@
+* {
+	margin:0;
+	padding:0;
+}
+html,body {
+	font-family: "Helvetica","Microsoft YaHei",sans-serif;
+	height: 100%;
+	overflow:hidden;
+	font-size: 0.9rem;
+}
+h1,h2,h3,h4 {
+	margin: 0.8rem 0;
+}
+.left-panel,.right-panel {
+	float: left;
+	margin-top: 10px;
+}
+.left-panel {
+	margin-right: 30px;
+}
+.container {
+	margin: 0 20px;
+	margin-top: 20px;
+}
+.textbox {
+	padding: 0.5rem;
+	outline: none;
+	border-radius: 0.2rem;
+	border: 1px solid #ddd;
+}
+a {
+	padding: 0.5rem 1rem;
+	border: none;
+	background: #D55736;
+	color: white;
+	text-decoration: none;
+	border-radius: 0.2rem;
+	outline: none;
+}
+#model-input {
+	width: 10rem;
+	margin-right: 1rem;
+}
+#total-inputs,#total-outputs {
+	margin-right: 1rem;
+	width: 2rem;
+}
+.device {
+	padding: 0px 20px 30px 20px;
+	border: 2px solid #333;
+	border-radius: 6px;
+	background: #eee;
+	overflow: hidden;
+
+}
+.device #model {
+	padding:10px 0;
+	border-bottom: 1px solid #ddd;
+}
+.device button {
+	width: 60px;
+	height: 60px;
+	margin-top: 4px;
+	border: 1px solid #333;
+	outline: none;
+	border-radius: 2px;
+	background: white;
+	font-weight: bold;
+}
+.device button:hover,button:focus{
+	border: 2px solid orange;
+}
+.device button:active{
+	background: #ddd;
+}
+.device .checked {
+	background: #FCB744;
+}
+#io_console {
+	padding: 0px 20px 30px 20px;
+	min-height: 10%;
+	max-height: 30%;
+	margin: 0 20px;
+	margin-top: 20px;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	overflow: scroll;
+}
+#io_console p {
+	color: #666;
+	font-size: 12px;
+	line-height: 22px;
+}
