@@ -5,8 +5,13 @@
 html,body {
 	font-family: "Helvetica","Microsoft YaHei",sans-serif;
 	height: 100%;
-	overflow:hidden;
 	font-size: 0.9rem;
+}
+@media (min-width:768px) {
+	html,body {
+		overflow:hidden;
+	}
+}
 }
 h1,h2,h3,h4 {
 	margin: 0.8rem 0;
@@ -14,6 +19,9 @@ h1,h2,h3,h4 {
 .left-panel,.right-panel {
 	float: left;
 	margin-top: 10px;
+}
+.right-panel{
+	margin-top: 20px;
 }
 .left-panel {
 	margin-right: 30px;
@@ -76,8 +84,11 @@ a {
 .device .checked {
 	background: #FCB744;
 }
+.input-btns,.output-btns {
+	margin-top: 10px;
+}
 #io_console {
-	padding: 0px 20px 30px 20px;
+	padding: 10px 20px;
 	min-height: 10%;
 	max-height: 30%;
 	margin: 0 20px;
@@ -85,6 +96,9 @@ a {
 	border: 1px solid #ddd;
 	border-radius: 6px;
 	overflow: scroll;
+}
+#io_console h4{
+	margin-bottom: 10px;
 }
 #io_console p {
 	color: #666;
